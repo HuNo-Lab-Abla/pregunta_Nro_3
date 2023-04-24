@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.card {
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.card-img-top {
+	border-radius: 5px 5px 0 0;
+}
+
+.card-title {
+	font-size: 1.2rem;
+}
+
+.btn-primary {
+	background-color: #2196f3;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #0b7dda;
+}
